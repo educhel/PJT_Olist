@@ -44,18 +44,18 @@
 ecommerce-analysis/
 ├── README.md
 ├── .gitignore
-├── requirements.txt
+├── img/
+│   ├── insight1.jpg
+│   └── insight2.jpg
 ├── notebooks/
-│   └── analysis.ipynb
-├── src/
-│   ├── preprocessing.py
-│   └── visualization.py
+│   ├── data_merge.ipynb
+│   ├── data_grade_check.ipynb
+│   ├── data_preprocessing.ipynb
+│   └── purchase_analysis.ipynb
 └── data/   (※ 실제 저장소에는 포함하지 않으며, .gitignore로 관리)
 ```
 
 - `notebooks/` : 데이터 분석 및 시각화용 Jupyter 노트북
-- `src/` : 데이터 전처리, 함수, 시각화 등 파이썬 코드
-- `requirements.txt` : 분석에 필요한 Python 패키지 목록
 
 ## [4] 데이터셋 안내
 
